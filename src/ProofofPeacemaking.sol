@@ -12,8 +12,7 @@ contract ProofofPeacemaking is ERC4973 {
     Counters.Counter private _tokenIds;
 
     address public deployer;
-
-    bool eligible = false;
+    // bool eligible = false;
 
     constructor() ERC4973("ProofofPeacemaking", "POP") {
         deployer = msg.sender;
