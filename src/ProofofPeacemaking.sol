@@ -22,7 +22,7 @@ contract ProofofPeacemaking is ERC4973 {
     //  TODO: with expression_id and using Chainlink oracles,
     //  check if msg.sender is included in the eligible peacemaker list or not.
     // function isEligible() returns (bool) {
-    //      ....
+    //      .....
     // }
 
     function burn(uint256 _tokenId) external override {
